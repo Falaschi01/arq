@@ -1,0 +1,92 @@
+#projetos h2 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#projetos .content-projetos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.content-projetos .caixa-projetos {
+    text-align: center;
+    background-color: #F5FFFA;
+    transition: 0.3s ease-in-out;
+    min-width: 100%;
+}
+.content-projetos .caixa-projetos:hover {
+    transform: scale(1.03);
+}
+
+.caixa-projetos img {
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.caixa-projetos a {
+    padding: 0.3rem 4rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #0B610B;
+    color: #F5FFFA;
+    cursor: pointer;
+}
+
+.caixa-projetos address {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.sub-projeto h3 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.sub-projeto img {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.sub-projeto p {
+    text-align: justify;
+}
+
+@media screen and (min-width: 300px) {
+    #projetos .content-projetos {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 700px) {
+    #projetos .content-projetos {
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+
+    .caixa-projetos img {
+        max-height: 20rem;
+        min-width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #projetos h2 {
+        font-size: 1.6rem;
+    }
+    .content-projetos .caixa-projetos {
+        min-width: 32%;
+        flex-basis: 32%;
+    }
+    .sub-projeto h3 {
+        font-size: 1.5rem;
+    }
+
+}

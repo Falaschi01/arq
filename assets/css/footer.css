@@ -1,0 +1,54 @@
+footer {
+    margin-top: 2rem;
+    
+}
+
+footer #rodape {
+    max-width: 100%;
+    background-image: url(/Assets/portfolio/imagens/background-img/background\ footer.png);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#rodape h2 {
+    color: #3c1cf7;
+    font-size: 1.2rem;
+}
+
+#rodape h3 {
+    color: #3c1cf7;
+}
+
+#rodape p {
+    font-weight: 600;
+    color: #fff;
+}
+
+#rodape .priv-deficiencia {
+    color: #3c1cf7;
+    font-size: 0.8rem;
+}
+
+#rodape .rede-sociais {
+    margin-top: 0.5rem;
+}
+
+#rodape .rede-sociais img {
+    width: 2.7rem;
+    border: 0.5rem solid #181818;
+    border-radius: 100%;
+    color: #181818;
+}
+
+#rodape .rede-sociais img:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.678);
+    transform: translateY(-0.1rem) scale(1.01);
+    transition: 0.5s;
+}
+
+
+
+

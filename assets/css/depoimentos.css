@@ -1,0 +1,32 @@
+main #depoimentos h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#depoimentos .content-depoimentos {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.caixa-depoimentos {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.caixa-depoimentos div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.content-depoimentos img {
+    width: 3rem;
+}
+
+.content-depoimentos span {
+    color: #FFC107;
+}
+
+
+

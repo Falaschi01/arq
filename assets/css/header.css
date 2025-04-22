@@ -1,0 +1,280 @@
+@import "/assets/css/projetos.css";
+@import "/assets/css/servicos.css";
+@import "/assets/css/depoimentos.css";
+@import "/assets/css/novidades.css";
+@import "/assets/css/footer.css";
+
+
+:root {
+    --green-color: #226621;
+    --whiteSuave-color: #FAF3E0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--whiteSuave-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.max-width {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+hr {
+    width: 100%;
+}
+
+/*Fim códigos gerais*/
+header {
+    background-image: url(/assets/portfolio/imagens/background-img/background\ main.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+header .nav-content {
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    background-color: rgba(82, 82, 82, 0.363);
+    backdrop-filter: blur(2rem);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.678);
+    z-index: 99;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    list-style-type: none;
+}
+
+nav img {
+    width: 4rem;
+}
+
+nav img:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease-in-out;
+}
+
+nav a {
+    color: var(--green-color);
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    border-bottom: 0.1rem solid #13ac10;
+    color: #13ac10;
+    transition: 0.3s ease-in-out;
+}
+
+header .caixa-principal {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAF3E0;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.caixa-principal img {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    animation: flutuar 5s ease-in-out infinite;
+}
+
+.caixa-principal h1 {
+    animation: digitando 2s steps(22), piscando 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.2rem solid;
+}
+
+.caixa-principal p {
+    max-width: 80%;
+    text-align: justify;
+}
+
+@keyframes flutuar {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .max-width {
+        max-width: 280px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .max-width {
+        max-width: 300px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 37%;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .max-width {
+        max-width: 400px;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 30%;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .max-width {
+        max-width: 500px;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 24%;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .max-width {
+        max-width: 600px;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 21%;
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .max-width {
+        max-width: 800px;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 16%;
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .max-width {
+        max-width: 900px;
+    }
+
+    .caixa-principal p {
+        max-width: 70%;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 12%;
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .max-width {
+        max-width: 1000px;
+    }
+
+    .caixa-principal p {
+        max-width: 70%;
+    }
+
+    @keyframes digitando {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 7%;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .max-width {
+        max-width: 1100px;
+    }
+
+    .caixa-principal p {
+        max-width: 65%;
+    }
+
+
+}

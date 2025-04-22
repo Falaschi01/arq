@@ -1,0 +1,131 @@
+main #servicos {
+    position: relative;
+}
+
+#servicos h2 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#servicos p {
+    text-align: justify;
+}
+
+.linha-separadora-servicos {
+    min-width: 100%;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.linha-separadora-servicos .linha-servicos {
+    min-width: 100%;
+    height: 0.2rem;
+    background-color: black;
+    position: absolute;
+}
+
+.linha-separadora-servicos ul {
+    display: flex;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+
+.sub-servico h3 {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.sub-servico .content-servicos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.sub-servico .caixa-servicos {
+    text-align: center;
+    background-color: #F5FFFA;
+    transition: 0.3s ease-in-out;
+    min-width: 100%;
+}
+
+
+.sub-servico img {
+    width: 100%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.sub-servico a {
+    padding: 0.3rem 4rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: #0B610B;
+    color: #F5FFFA;
+    cursor: pointer;
+}
+
+.sub-servico .caixa-servicos:hover {
+    transform: scale(1.03);
+}
+
+.sub-servico h4 {
+    padding: 0.7rem;
+}
+
+@media screen and (min-width: 300px) {
+    .linha-separadora-servicos ul {
+        font-size: 0.7rem;
+    }
+
+}
+@media screen and (min-width: 500px) {
+    .linha-separadora-servicos ul {
+        justify-content: space-between;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .linha-separadora-servicos ul {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .sub-servico img {
+        max-height: 20rem;
+    }
+
+    .linha-separadora-servicos ul {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    #servicos h2 {
+        font-size: 1.7rem;
+    }
+
+    .sub-servico h3 {
+        font-size: 1.4rem;
+    }
+
+    .linha-separadora-servicos ul {
+        font-size: 1rem;
+    }
+
+    .sub-servico .caixa-servicos {
+        min-width: 32%;
+        flex-basis: 32%;
+    }
+
+
+}
