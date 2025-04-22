@@ -1,8 +1,8 @@
-@import "/assets/css/projetos.css";
-@import "/assets/css/servicos.css";
-@import "/assets/css/depoimentos.css";
-@import "/assets/css/novidades.css";
-@import "/assets/css/footer.css";
+@import "./assets/css/projetos.css";
+@import "./assets/css/servicos.css";
+@import "./assets/css/depoimentos.css";
+@import "./assets/css/novidades.css";
+@import "./assets/css/footer.css";
 
 
 :root {
