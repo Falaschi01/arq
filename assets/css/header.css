@@ -30,7 +30,7 @@ hr {
 
 /*Fim códigos gerais*/
 header {
-    background-image: url(../portfolio/imagens/background-img/background-main.png);
+    background-image: url('https://falaschi01.github.io/arq/assets/portfolio/imagens/background-img/background-main.png');
     height: 100vh;
     background-position: center;
     background-size: cover;
