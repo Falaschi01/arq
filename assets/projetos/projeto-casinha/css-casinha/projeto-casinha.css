@@ -87,7 +87,7 @@ section .imagem-principal {
     overflow: hidden;
 }
 
-section .imagens-segundarias  {
+section .imagens-segundarias {
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -200,14 +200,9 @@ footer #rodape {
     .max-width {
         max-width: 250px;
     }
-    section .imagens-segundarias ul {
-        gap: 0.3rem;
-    }
-    
-    .imagens-segundarias ul img {
-        max-width: 30%;
-        min-height: 2rem;
-        overflow: hidden;
+    .imagens-segundarias  img {
+        max-width: 100%;
+        height: 2rem;
     }
 }
 @media screen and (min-width: 400px) {
