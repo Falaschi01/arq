@@ -5,7 +5,7 @@ footer {
 
 footer #rodape {
     max-width: 100%;
-    background-image: url(../portfolio/imagens/background-img/background-footer.png);
+    background-image: url('https://falaschi01.github.io/arq/assets/portfolio/imagens/background-img/background-footer.png');
     background-position: center;
     background-size: cover;
     flex-direction: column;
