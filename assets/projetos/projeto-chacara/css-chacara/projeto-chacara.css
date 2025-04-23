@@ -88,20 +88,18 @@ section .imagem-principal {
     overflow: hidden;
 }
 
-section .imagens-segundarias ul {
+section .imagens-segundarias {
     display: flex;
     align-items: center;
     gap: 0.8rem;
     justify-content: center;
 }
 
-.imagens-segundarias ul img {
+.imagens-segundarias figure img {
     min-width: 100%;
     min-height: 4rem;
     overflow: hidden;
 }
-
-
 /*contato*/
 .contato {
     margin-top: 1rem;
